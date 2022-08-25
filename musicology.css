@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* =================================== Header Part ========================================= */
+
+header {
+    width: 100%;
+    float: left;
+    background-color: #303030;
+}
+
+/* ================================ Navigation ========================================== */
+ 
+nav {
+    width: 100%;
+    float: left;
+}
+
+.logo-part {
+    width: 33.33%;
+    float: left;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.menu-part {
+    width: 33.33%;
+    float: left;
+    
+}
+ 
+.menu-part li {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.menu-part a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.search-part {
+    width: 33.33%;
+    float: left;
+}
+
+/* ============================================ Hero Part ================================================== */
+
+.hero-part {
+    width: 100%;
+    height: 350px;
+    float: left;
+    background-color: #626262;
+}
+
+.hero-writing-part {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.hero-writing-part h1 {
+    font-size: 90px;
+    color: #fff;
+}
+
+.hero-writing-part p {
+    font-size: 35px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.hero-writing-part button {
+    margin-top: 20px;
+    background-color: #e8631c;
+    padding: 25px 70px;
+    color: #fff;
+}
+
+.hero-img-part {
+    width: 50%;
+    float: left;
+}
+
+.hero-img-part img {
+    width: 112%;
+    height: 350px;
+}
